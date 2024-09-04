@@ -334,42 +334,34 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'multilevel',
-            'icon' => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
-            ],
+            'text' => 'Productos',
+            'url' => 'productos',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Proveedores',
+            'url' => 'proveedores',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Compras',
+            'url' => 'compras',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Articulos de Compras',
+            'url' => 'items_compras',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Clientes',
+            'url' => 'clientes',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Ventas',
+            'url' => 'ventas',
+            'icon' => 'fas fa-fw fa-lock',
         ],
         ['header' => 'labels'],
         [

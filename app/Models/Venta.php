@@ -9,6 +9,7 @@ class Venta extends Model
 {
     use HasFactory;
 
+    protected $table = 'ventas';
     protected $fillable = [
         'producto_id',
         'cliente_id',
